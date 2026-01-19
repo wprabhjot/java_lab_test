@@ -1,0 +1,41 @@
+# Lab Assessment Module 1 Core Java Foundation
+
+**JAVA TRAINING-FRESHER**  
+[OOPs, UML, File, Collections]
+
+---
+
+## 1. Code a MerchandiseInventoryTest program
+
+Code a `MerchandiseInventoryTest` program which will accept **11 merchandises** from a **redirected input text file**.
+
+Copy and paste the following data to a text editor and save it as `input.dat` file.
+
+ItemId Qty price
+KLM6666 22 49.50
+GHI3330 30 20.00
+WXX9000 11 15.00
+JKL4440 40 35.00
+YZZ9990 30 25.00
+PQR6660 7 76.00
+DEF2220 8 63.44
+STU7770 15 55.00
+ABC1110 10 50.50
+TVV8880 18 43.50
+MNO5550 50 12.00
+
+
+Store each merchandise (one per input line) in an **ArrayList** object.  
+(Merchandise class consist of `itemCode`, `quantity`, `unitPrice`)
+
+Sort the merchandise elements in the ArrayList in an **ascending order by names**.  
+Display the sorted merchandise elements (one per line).
+
+Sort the merchandises in a **descending order by price**.  
+Display the sorted merchandise elements again in the new order (one per line).
+
+---
+
+## 2. Implement UML diagram
+
+![UML Diagram](Lab_Assessment_Module_1_UML.png)
