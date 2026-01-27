@@ -16,13 +16,13 @@ public class TraineeManamementController {
 
         try {
 
-//        	Trainee trainee1 = new Trainee("RK", "oracle", 33.75);
-//            Trainee trainee2 = new Trainee("MK", "java", 57.00);
-//
-//            service.addTrainee(trainee1);
-//            service.addTrainee(trainee2);
-//            
-//            System.out.println("Trainee added successfully!");
+        	Trainee trainee1 = new Trainee("RK", "oracle", 33.75);
+            Trainee trainee2 = new Trainee("MK", "java", 57.00);
+
+            service.addTrainee(trainee1);
+            service.addTrainee(trainee2);
+            
+            System.out.println("Trainee added successfully!");
 
             
             System.out.println("\nGet Trainee by ID 8:");
