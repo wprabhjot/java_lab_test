@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.traineemgmtspring.dto.Trainee;
+import com.traineemgmtspring.dto.TraineeDto;
 import com.traineemgmtspring.service.TraineeService;
 
 import lombok.AllArgsConstructor;
@@ -22,14 +22,14 @@ public class TraineeController {
     private final TraineeService traineeService;
 
     @GetMapping(path = "trainees/{id}")
-    public ResponseEntity<Trainee> getById(@PathVariable int id) {
+    public ResponseEntity<TraineeDto> getById(@PathVariable int id) {
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(traineeService.findTraineeById(id));
     }
 
     @PostMapping(path = "trainees")
-    public ResponseEntity<Void> addTrainee( @RequestBody Trainee traineeDto) {
+    public ResponseEntity<Void> addTrainee( @RequestBody TraineeDto traineeDto) {
         traineeService.addTrainee(traineeDto);
         return ResponseEntity
                 .status(HttpStatus.CREATED).build();

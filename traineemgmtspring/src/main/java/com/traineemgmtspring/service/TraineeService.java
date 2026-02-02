@@ -1,8 +1,8 @@
 package com.traineemgmtspring.service;
 
-import com.traineemgmtspring.dto.Trainee;
+import com.traineemgmtspring.dto.TraineeDto;
 
 public interface TraineeService {
-	public void addTrainee(Trainee trainee);
-	public Trainee findTraineeById(int traineeId);
+	public void addTrainee(TraineeDto traineeDto);
+	public TraineeDto findTraineeById(int traineeId);
 }

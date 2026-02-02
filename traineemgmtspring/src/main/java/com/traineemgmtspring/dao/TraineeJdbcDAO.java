@@ -8,8 +8,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.traineemgmtspring.dto.Trainee;
-import com.traineemgmtspring.exceptions.TraineeDataAccessException;
+import com.traineemgmtspring.entities.Trainee;
 
 @Repository
 @ConditionalOnProperty(name = "trainee.dao.type", havingValue = "jdbc")

@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.traineemgmtspring.controller.TraineeController;
-import com.traineemgmtspring.dto.Trainee;
+import com.traineemgmtspring.dto.TraineeDto;
 
 @SpringBootApplication
 public class TraineemgmtspringApplication implements CommandLineRunner {

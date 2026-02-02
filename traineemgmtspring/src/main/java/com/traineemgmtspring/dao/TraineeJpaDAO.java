@@ -3,7 +3,7 @@ package com.traineemgmtspring.dao;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Repository;
 
-import com.traineemgmtspring.dto.Trainee;
+import com.traineemgmtspring.entities.Trainee;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;

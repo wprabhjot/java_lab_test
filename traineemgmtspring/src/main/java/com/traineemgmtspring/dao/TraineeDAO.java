@@ -1,6 +1,6 @@
 package com.traineemgmtspring.dao;
 
-import com.traineemgmtspring.dto.Trainee;
+import com.traineemgmtspring.entities.Trainee;
 
 public interface TraineeDAO {
 	
