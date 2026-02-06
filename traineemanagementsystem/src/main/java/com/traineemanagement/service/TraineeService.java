@@ -38,6 +38,4 @@ public class TraineeService {
 			throw new ServiceException("Some issue while fetching trainee. Try again later", e);
 		}
     }
-    
-
 }

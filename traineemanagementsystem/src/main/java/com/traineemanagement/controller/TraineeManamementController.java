@@ -25,7 +25,7 @@ public class TraineeManamementController {
             System.out.println("Trainee added successfully!");
 
             
-            System.out.println("\nGet Trainee by ID 8:");
+            System.out.println("Get Trainee by ID 8:");
             Trainee t = service.findTraineeById(8);
             System.out.println(t);
 
